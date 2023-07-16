@@ -4,7 +4,7 @@
 }
 
 header {
-    background: rgba(255, 144, 14, 0.10);
+    background: rgb(137, 99, 175);
     padding: 30px 200px;
 }
 
@@ -38,6 +38,7 @@ li a {
 
 .banner-tex {
     max-width: 700px;
+    
     height: 240px;
     text-align: center;
     margin: 100px auto;
@@ -57,11 +58,28 @@ li a {
 }
 
 .btn {
-    width: 190px;
+    width: 160px;
     height: 50px;
     border-radius: 5px;
     background: #f68a06;
     border: 0px;
-    margin-top: 1.5rem;
+    margin-top: 16px;
     color: white;
+}
+header img{
+    max-width: 100%;
+}
+@media screen and (max-width:576px){
+    header{
+        padding: 5px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .banner-tex {
+       margin-top: 30px;
+    }
+    .banner-tex h1{
+        font-size: 3rem;
+    }
 }
